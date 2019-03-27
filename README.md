@@ -46,4 +46,4 @@ $ roslaunch m2det_ros m2det_ros.launch
 
 
 ## Demo
-![demo](https://raw.github.com/wiki/KoutaOhishi/m2det_ros/gifs/demo.gif)
+[Demo](https://github.com/KoutaOhishi/m2det_ros/blob/master/gif/demo.gif)
