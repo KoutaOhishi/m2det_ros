@@ -45,5 +45,5 @@ $ roslaunch m2det_ros m2det_ros.launch
 - /m2det_ros/detect_result [darknet_dnn/BoundingBoxes]
 
 
-
 ## Demo
+![demo](https://raw.github.com/wiki/KoutaOhishi/m2det_ros/gifs/demo.gif)
