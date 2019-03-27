@@ -1,0 +1,5 @@
+<launch>
+  <param name="/m2det_ros/show_result" value="True" />
+  <param name="/m2det_ros/image_topic_name" value="/usb_cam/image_raw" />
+  <node pkg="m2det_ros" name="m2det_ros" type="m2det_ros.py" />
+</launch>
