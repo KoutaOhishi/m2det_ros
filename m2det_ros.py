@@ -22,7 +22,7 @@ from cv_bridge import CvBridge, CvBridgeError
 
 #parameters
 show_result = rospy.get_param("/m2det_ros/show_result")
-image_topic_name = rospy.get_param("/m2det_ros/image_topic_name")
+subscribe_image = rospy.get_param("/m2det_ros/subscribe_image")
 
 print_info(' -------------------------------------------------------------\n'
            '|                       M2Det ROS                            |\n'
@@ -152,7 +152,7 @@ def imgCallback(msg):
 
 
 if __name__ == "__main__":
-    rospy.init_node("n2det_ros")
-    rospy.Subscriber(image_topic_name, Image, imgCallback)
+    rospy.init_node("m2det_ros")
+    rospy.Subscriber(subscribe_image, Image, imgCallback)
 
     rospy.spin()
