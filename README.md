@@ -6,23 +6,11 @@
 
 
 ## Preparation
-### pip
-```
-$ pip install torch, torchvision
-$ pip install cython
-$ pip install opencv-python
-$ pip install tqdm
-```
-
-### clone repository & catkin_make
 ```
 $ cd ~
 $ cd catkin_ws/src
-$ git clone https://github.com/KoutaOhishi/m2det_ros.git
-$ cd m2det_ros
-$ sh make.sh
-$ cd ~ && cd catkin_ws/
-$ catkin_make
+$ git clone https://github.com/KoutaOhishi/m2det_ros.git && cd m2det_ros
+$ sh install.sh
 ```
 
 ### Download weight file(m2det512_vgg.pth)
