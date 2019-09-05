@@ -2,7 +2,7 @@
 
 [Original](https://github.com/qijiezhao/M2Det)
 
-[Demo](/gif/demo.gif)
+![Demo](/gif/demo.gif)
 
 
 ## Preparation
